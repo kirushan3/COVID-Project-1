@@ -1,0 +1,5 @@
+summary_table = pd.DataFrame({"Bitcoin Open": df_maxb, "Dash Open": df_maxd,
+                              "Bitcoin Close": df_minb, "Dash Close": df_mind,
+                              "Bitcoin Volume": df_sumb, "Dash Volume": df_sumd
+                             })
+summary_table
